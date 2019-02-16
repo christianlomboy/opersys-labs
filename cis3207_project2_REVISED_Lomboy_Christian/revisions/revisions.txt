@@ -1,0 +1,16 @@
+REVISIONS:
+
+
+*Added parser test*
+
+This folder contains code for testing the parser function. Inside the code, the user is able 
+to input a string and specify a delimiter to tokenize the string with. The parsed string is 
+then printed. Screenshots of testing have also been provided.
+
+
+*Fixed segmentation fault when running on Ubuntu OS*
+
+During my demo, the program would crash whenever I tried running an external command. This 
+issue has been fixed. Provided are screenshots of external command testing. The actual code 
+revisions are inside the 'myshell_fixed' source code folder. The problem occurred because I 
+was calling fclose() twice inside of the 'findPath' function.
